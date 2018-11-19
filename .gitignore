@@ -1,0 +1,16 @@
+# Ignore system files.
+.*
+
+# Ignore libraries.
+node_modules
+
+# Ignore builds.
+dist
+
+# Keep configuration.
+!.browserslistrc
+!.eslintrc.js
+
+# Keep '.git' files.
+!.gitignore
+!.gitkeep
