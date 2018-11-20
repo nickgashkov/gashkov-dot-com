@@ -11,7 +11,7 @@
 import Typed from "typed.js";
 
 export default {
-  name: "VTyped",
+  name: "AppTypedStrings",
   props: {
     elementId: { type: String, required: true },
     strings: { type: Array, required: true }

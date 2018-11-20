@@ -1,7 +1,7 @@
 <template>
   <a :href="this.to" target="_blank">
     <span>{{ this.name }}</span
-    >&nbsp;<v-icon name="external-link-alt" class="has-margin-left" />
+    >&nbsp;<app-icon name="external-link-alt" class="has-margin-left" />
   </a>
 </template>
 

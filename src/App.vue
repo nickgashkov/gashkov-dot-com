@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <v-header />
+    <the-header />
     <introduction-section />
     <latest-work-section />
     <contact-section />
-    <v-footer />
+    <the-footer />
   </div>
 </template>
 
 <script>
-import VHeader from "./containers/VHeader";
+import TheHeader from "./containers/TheHeader";
 import IntroductionSection from "./containers/IntroductionSection";
 import ContactSection from "./containers/ContactSection";
-import VFooter from "./containers/VFooter";
+import TheFooter from "./containers/TheFooter";
 import LatestWorkSection from "./containers/LatestWorkSection";
 
 export default {
   name: "app",
   components: {
     LatestWorkSection,
-    VHeader,
+    TheHeader,
     IntroductionSection,
     ContactSection,
-    VFooter
+    TheFooter
   }
 };
 </script>

@@ -3,10 +3,10 @@
     <h1 class="title">Let's build something amazing together</h1>
     <div class="buttons is-centered">
       <social-button to="https://github.com/nickgashkov" name="GitHub">
-        <v-icon name="brands/github" />
+        <app-icon name="brands/github" />
       </social-button>
       <social-button to="https://linkedin.com/in/gashkov" name="Linkedin">
-        <v-icon name="brands/linkedin" />
+        <app-icon name="brands/linkedin" />
       </social-button>
       <social-button
         to="https://www.upwork.com/o/profiles/users/_~01e53467dfc4f476c8/"
@@ -16,7 +16,8 @@
       </social-button>
     </div>
     <p>
-      Or just send me an email to <a href="mailto:nick@gashkov.com">nick@gashkov.com</a>
+      Or just send me an email to
+      <a href="mailto:nick@gashkov.com">nick@gashkov.com</a>
     </p>
   </section>
 </template>

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="title has-text-white">
         <span>Hungry for</span>
-        <v-typed
+        <app-typed-strings
           element-id="project"
           :strings="['website?', 'desktop app?', 'web service?']"
         />
@@ -14,7 +14,9 @@
             I have worked on several personal and professional projects
             including this website.
           </p>
-          <p class="content"><strong class="has-text-white">Unleash the portfolio!</strong></p>
+          <p class="content">
+            <strong class="has-text-white">Unleash the portfolio!</strong>
+          </p>
         </div>
         <div class="column">
           <portfolio-item
@@ -44,11 +46,11 @@
 
 <script>
 import PortfolioItem from "../components/PortfolioItem";
-import VTyped from "../components/VTyped";
+import AppTypedStrings from "../components/AppTypedStrings";
 
 export default {
   name: "LatestWorkSection",
-  components: { VTyped, PortfolioItem }
+  components: { AppTypedStrings, PortfolioItem }
 };
 </script>
 

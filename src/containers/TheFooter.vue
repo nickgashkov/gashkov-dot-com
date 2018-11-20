@@ -3,7 +3,7 @@
     <div class="content has-text-centered">
       <p>
         <span>This website was developed with</span>
-        <v-icon name="heart" class="has-text-danger has-margin-left" />
+        <app-icon name="heart" class="has-text-danger has-margin-left" />
         <span class="has-margin-left">
           by Nick&nbsp;Gashkov backed by the power of <strong>Vue</strong> and
           <strong>Bulma</strong>.</span

@@ -9,7 +9,7 @@ import Icon from "vue-awesome/components/Icon";
 import App from "./App.vue";
 
 Vue.config.productionTip = false;
-Vue.component("v-icon", Icon);
+Vue.component("app-icon", Icon);
 
 new Vue({
   render: h => h(App)
