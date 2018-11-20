@@ -1,6 +1,6 @@
 <template>
   <section id="contact-me" class="section has-text-centered">
-    <h1 class="title">Let's get in touch</h1>
+    <h1 class="title">Let's build something amazing together</h1>
     <div class="buttons is-centered">
       <social-button to="https://github.com/nickgashkov" name="GitHub">
         <v-icon name="brands/github" />
@@ -15,7 +15,9 @@
         <upwork-icon style="height: 1em; width: 1em" class="fa-icon" />
       </social-button>
     </div>
-    <p>Or just <a href="mailto:nick@gashkov.com">email</a> me.</p>
+    <p>
+      Or just send me an email to <a href="mailto:nick@gashkov.com">nick@gashkov.com</a>
+    </p>
   </section>
 </template>
 

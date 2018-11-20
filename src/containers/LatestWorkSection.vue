@@ -5,7 +5,7 @@
         <span>Hungry for</span>
         <v-typed
           element-id="project"
-          :strings="['website?', 'desktop app?', 'service?']"
+          :strings="['website?', 'desktop app?', 'web service?']"
         />
       </div>
       <div class="columns">
