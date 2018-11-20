@@ -5,7 +5,7 @@
         <span>This website was developed with</span>
         <v-icon name="heart" class="has-text-danger has-margin-left" />
         <span class="has-margin-left">
-          by Nick&nbsp;Gashkov with the power of <strong>Vue</strong> and
+          by Nick&nbsp;Gashkov backed by the power of <strong>Vue</strong> and
           <strong>Bulma</strong>.</span
         >
       </p>

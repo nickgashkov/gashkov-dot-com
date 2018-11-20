@@ -1,7 +1,6 @@
 <template>
   <a :href="this.to" class="button">
-    <slot></slot>
-    <span class="has-margin-left">{{ this.name }}</span>
+    <slot></slot> <span class="has-margin-left">{{ this.name }}</span>
   </a>
 </template>
 
@@ -16,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
-  .has-margin-left {
-    margin-left: .5ex;
-  }
+.has-margin-left {
+  margin-left: 0.5ex;
+}
 </style>
