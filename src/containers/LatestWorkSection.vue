@@ -5,7 +5,7 @@
         <span>Hungry for</span>
         <app-typed-strings
           element-id="project"
-          :strings="['website?', 'desktop app?', 'web service?']"
+          :strings="['websites?', 'desktop apps?', 'web services?']"
         />
       </div>
       <div class="columns">
