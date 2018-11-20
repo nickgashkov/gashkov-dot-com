@@ -1,18 +1,22 @@
 <template>
-  <external-link :to="this.to" :name="this.name" class="button">
+  <a :href="this.to" class="button">
     <slot></slot>
-  </external-link>
+    <span class="has-margin-left">{{ this.name }}</span>
+  </a>
 </template>
 
 <script>
-import ExternalLink from "./ExternalLink";
-
 export default {
   name: "SocialButton",
-  components: { ExternalLink },
   props: {
     to: { type: String, required: true },
     name: { type: String, required: true }
   }
 };
 </script>
+
+<style scoped>
+  .has-margin-left {
+    margin-left: .5ex;
+  }
+</style>

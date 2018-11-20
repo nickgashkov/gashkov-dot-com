@@ -1,6 +1,5 @@
 <template>
   <a :href="this.to" target="_blank">
-    <slot></slot>
     <span :class="{ 'has-margin-left': !!this.$slots.default }">{{
       this.name
     }}</span>
