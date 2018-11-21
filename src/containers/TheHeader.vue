@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
-      <div class="navbar-item has-text-logo is-size-3">Gashkov</div>
+      <div class="navbar-item has-text-logo is-size-4">Gashkov</div>
       <div
         class="navbar-burger"
         data-target="navbar-menu"

@@ -5,9 +5,6 @@
         I have worked on several personal and professional projects including
         this website.
       </p>
-      <p class="content">
-        <strong class="has-text-white">Unleash the portfolio!</strong>
-      </p>
     </div>
     <div class="column">
       <portfolio-item

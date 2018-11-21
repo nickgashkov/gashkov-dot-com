@@ -9,7 +9,7 @@
 export default {
   name: "ExternalLink",
   props: {
-    to: { type: String, required: true },
+    url: { type: String, required: true },
     name: { type: String, required: true }
   }
 };
