@@ -3,10 +3,10 @@
     <div class="container">
       <h1 class="title">Hello, my name is Nick</h1>
       <h2 class="subtitle">I'm a software engineer</h2>
-    </div>
-    <div class="buttons is-centered has-padding-top">
-      <app-download-link class="button" name="Get CV" disabled />
-      <a href="mailto:nick@gashkov.com" class="button">Hire me</a>
+      <div class="buttons">
+        <app-download-link class="button" name="Get CV" disabled />
+        <a href="mailto:nick@gashkov.com" class="button">Hire me</a>
+      </div>
     </div>
   </section>
 </template>
@@ -19,9 +19,3 @@ export default {
   components: { AppDownloadLink }
 };
 </script>
-
-<style scoped>
-.has-padding-top {
-  padding-top: 1rem;
-}
-</style>
