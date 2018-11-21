@@ -1,7 +1,7 @@
 <template>
   <app-typed-strings
     element-id="hungry"
-    :strings="['websites?', 'desktop apps?', 'web services?']"
+    :strings="['a website?', 'a desktop app?', 'a web service?', 'a script?']"
   />
 </template>
 

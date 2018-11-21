@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="navbar-brand">
-      <div class="navbar-item has-text-brand is-size-3">Gashkov</div>
+      <div class="navbar-item has-text-logo is-size-3">Gashkov</div>
       <div
         class="navbar-burger"
         data-target="navbar-menu"
@@ -46,9 +46,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css?family=Cinzel");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:900");
 
-.has-text-brand {
+.has-text-logo {
   font-family: "Cinzel", serif;
 }
 </style>
