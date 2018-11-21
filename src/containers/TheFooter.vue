@@ -2,11 +2,9 @@
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <span>This website was developed with</span>
-        <app-icon name="heart" class="has-text-danger has-margin-left" />
-        <span class="has-margin-left">
-          by Nick&nbsp;Gashkov backed by the power of <strong>Vue</strong> and
-          <strong>Bulma</strong>.</span
+        <span
+          >This website was developed with love by Nick&nbsp;Gashkov and backed
+          by the power of <strong>Vue</strong> and <strong>Bulma</strong>.</span
         >
       </p>
       <p>

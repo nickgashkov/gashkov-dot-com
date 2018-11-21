@@ -1,5 +1,4 @@
 import "vue-awesome/icons/external-link-alt";
-import "vue-awesome/icons/heart";
 import "vue-awesome/icons/brands/github";
 import "vue-awesome/icons/brands/linkedin";
 
