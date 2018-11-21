@@ -2,10 +2,10 @@
   <app-skill
     name="Frontend"
     :descriptions="[
-      'I create interfaces so good you want to lick them.',
-      'Mobile first progressive web apps are waiting for you.'
+      `I create interfaces so good you'll want to lick them.`,
+      `Mobile first progressive web apps are waiting for you.`
     ]"
-    :tags="['JavaScript', 'HTML', 'CSS', 'Vue', 'SASS', 'UI & UX']"
+    :tags="['JavaScript', 'HTML', 'CSS', 'Vue', 'SASS', 'Bulma', 'UI & UX']"
   />
 </template>
 

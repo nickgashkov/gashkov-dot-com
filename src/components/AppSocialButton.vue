@@ -1,5 +1,5 @@
 <template>
-  <a :href="this.url" class="button">
+  <a :href="this.url" class="button" target="_blank">
     <slot></slot> <span class="has-margin-left">{{ this.name }}</span>
   </a>
 </template>

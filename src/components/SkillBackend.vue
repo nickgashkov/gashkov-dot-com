@@ -1,6 +1,6 @@
 <template>
   <app-skill
-    name="Frontend"
+    name="Backend"
     :descriptions="[
       'I have an expertise in building high-performance scalable backends.'
     ]"

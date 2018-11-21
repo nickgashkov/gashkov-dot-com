@@ -1,6 +1,6 @@
 <template>
   <app-skill
-    name="Frontend"
+    name="Automation"
     :descriptions="[
       `Do you want to quit spending days of your life to something boring?`,
       `Say no more, let's automate things!`
