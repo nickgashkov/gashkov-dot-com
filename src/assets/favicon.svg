@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -7,40 +9,37 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg8"
+   width="8.4666662mm"
+   height="8.4666662mm"
+   viewBox="0 0 8.4666662 8.4666662"
    version="1.1"
-   viewBox="0 0 8.4666661 8.4666661"
-   height="31.999998"
-   width="31.999998"
-   sodipodi:docname="favicon.svg"
-   inkscape:version="0.92.3 (unknown)">
+   id="svg8"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="favicon.svg">
+  <defs
+     id="defs2" />
   <sodipodi:namedview
+     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     id="namedview8"
+     inkscape:zoom="15.071429"
+     inkscape:cx="18.5"
+     inkscape:cy="15"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     units="px"
-     inkscape:zoom="16.230769"
-     inkscape:cx="9.3104264"
-     inkscape:cy="14.904584"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg8" />
-  <defs
-     id="defs2" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -53,19 +52,27 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <circle
-     id="path3719"
-     cx="4.2333331"
-     cy="4.2333331"
-     style="fill:#ffffff;stroke-width:0.13229166"
-     r="4.2333331" />
   <g
-     aria-label="G"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.27508068px;line-height:1.25;font-family:'Amiri Quran Colored';-inkscape-font-specification:'Amiri Quran Colored';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25687701"
-     id="text3723">
-    <path
-       id="path9"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abril Fatface';-inkscape-font-specification:'Abril Fatface';stroke-width:0.25687701"
-       d="m 4.4850573,7.7319979 q 0.503479,0 0.637055,-0.1849514 Q 5.2659634,7.362095 5.2659634,6.9202666 V 4.9269009 H 4.6083583 V 4.7008491 H 7.5675815 V 4.9269009 H 7.1668534 V 7.8244737 H 7.0127272 Q 6.8277757,7.5675966 6.488698,7.5675966 q -0.1438511,0 -0.8631067,0.1849515 -0.7089806,0.1849515 -1.2124596,0.1849515 -1.6748381,0 -2.5995954,-0.9042071 -0.91448215,-0.9042071 -0.91448215,-2.7126213 0,-1.8186893 0.95558255,-2.8050971 0.9658575,-0.98640772 2.5893203,-0.98640772 0.6267799,0 1.2535598,0.16440129 0.637055,0.15412621 0.7398058,0.15412621 0.1027508,0 0.1541262,-0.0411003 0.051375,-0.0513754 0.1130259,-0.16440129 H 6.8175006 L 6.8997013,2.8718848 H 6.7147498 Q 6.2112709,1.875202 5.6975168,1.3100725 5.1940379,0.73466799 4.567258,0.73466799 q -1.5720874,0 -1.5720874,3.07224911 v 0.8117314 q 0,1.5412621 0.380178,2.3324433 0.3904531,0.7809061 1.1097087,0.7809061 z" />
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-169.56011,-106.87796)">
+    <circle
+       style="fill:#f2f2f2;stroke-width:0.13229166"
+       id="path14"
+       cx="173.79344"
+       cy="111.1113"
+       r="4.2333331" />
+    <g
+       aria-label="G"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.85073709px;line-height:1.25;font-family:Cinzel;-inkscape-font-specification:Cinzel;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14626843"
+       id="text18"
+       transform="translate(-0.18419667,0.26746955)">
+      <path
+         id="path28"
+         style="stroke-width:0.14626843"
+         d="m 173.87818,112.96049 q -1.04728,0 -1.66746,-0.56752 -0.61433,-0.57338 -0.61433,-1.568 0,-1.00048 0.62018,-1.56215 0.62018,-0.56167 1.72012,-0.56167 0.47391,0 0.97707,0.0819 0.50316,0.0761 0.76645,0.18723 l -0.0585,1.11749 h -0.0527 q -0.30424,-1.09409 -1.33982,-1.09409 -1.34567,0 -1.34567,1.88394 0,0.8542 0.27499,1.32226 0.28083,0.46806 0.84836,0.46806 0.31009,0 0.53826,-0.16382 0.23403,-0.16967 0.23403,-0.46221 l 0.006,-0.80155 q 0,-0.12871 -0.0819,-0.19307 -0.0761,-0.0702 -0.21647,-0.0702 h -0.0936 v -0.0585 h 1.96585 v 0.0585 h -0.0878 q -0.14627,0 -0.22233,0.0702 -0.0761,0.0644 -0.0702,0.19307 v 0.96537 q -0.32764,0.41541 -1.18769,0.63773 -0.44466,0.11702 -0.91272,0.11702 z"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>

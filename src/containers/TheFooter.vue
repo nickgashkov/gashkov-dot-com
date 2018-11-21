@@ -11,8 +11,8 @@
       </p>
       <p>
         <span>The source code is available at </span>
-        <external-link
-          to="https://github.com/nickgashkov/gashkov-dot-com"
+        <app-external-link
+          url="https://github.com/nickgashkov/gashkov-dot-com"
           name="GitHub"
         />
       </p>
@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import ExternalLink from "../components/ExternalLink";
+import AppExternalLink from "../components/AppExternalLink";
 
 export default {
   name: "VFooter",
-  components: { ExternalLink }
+  components: { AppExternalLink }
 };
 </script>
 

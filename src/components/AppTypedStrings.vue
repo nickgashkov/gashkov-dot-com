@@ -34,7 +34,7 @@ export default {
   methods: {
     initTyped: function() {
       // eslint-disable-next-line no-unused-vars
-      let typed = new Typed(`#${this.typedElementId}`, this.typedOptions);
+      const typed = new Typed(`#${this.typedElementId}`, this.typedOptions);
     }
   },
   mounted: function() {

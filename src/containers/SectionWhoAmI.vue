@@ -5,18 +5,18 @@
       <h2 class="subtitle">I'm a software engineer</h2>
     </div>
     <div class="buttons is-centered has-padding-top">
-      <download-link class="button" to="favicon.ico" name="Get CV" />
+      <app-download-link class="button" name="Get CV" disabled />
       <a href="mailto:nick@gashkov.com" class="button">Hire me</a>
     </div>
   </section>
 </template>
 
 <script>
-import DownloadLink from "../components/DownloadLink";
+import AppDownloadLink from "../components/AppDownloadLink";
 
 export default {
-  name: "IntroductionSection",
-  components: { DownloadLink }
+  name: "SectionWhoAmI",
+  components: { AppDownloadLink }
 };
 </script>
 

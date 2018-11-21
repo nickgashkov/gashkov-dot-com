@@ -1,14 +1,14 @@
 <template>
-  <a :href="this.to" class="button">
+  <a :href="this.url" class="button">
     <slot></slot> <span class="has-margin-left">{{ this.name }}</span>
   </a>
 </template>
 
 <script>
 export default {
-  name: "SocialButton",
+  name: "AppSocialButton",
   props: {
-    to: { type: String, required: true },
+    url: { type: String, required: true },
     name: { type: String, required: true }
   }
 };

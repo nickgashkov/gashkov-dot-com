@@ -1,12 +1,12 @@
 <template>
-  <a :href="this.to" download>{{ this.name }}</a>
+  <a :href="this.url" download>{{ this.name }}</a>
 </template>
 
 <script>
 export default {
-  name: "DownloadLink",
+  name: "AppDownloadLink",
   props: {
-    to: { type: String, required: true },
+    url: { type: String, required: true },
     name: { type: String, required: true }
   }
 };
