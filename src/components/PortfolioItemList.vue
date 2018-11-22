@@ -8,7 +8,7 @@
     </div>
     <div class="column">
       <portfolio-item
-        name="A website"
+        name="A landing page"
         description="It was cool"
         image-url="https://bulma.io/images/placeholders/480x320.png"
       />
@@ -20,22 +20,17 @@
         image-url="https://bulma.io/images/placeholders/480x320.png"
       />
     </div>
-    <div class="column">
-      <portfolio-item
-        name="...and your next beautiful project"
-        description="This will be awesome"
-        image-url="https://bulma.io/images/placeholders/480x320.png"
-      />
-    </div>
+    <div class="column"><portfolio-item-your-next-project /></div>
   </div>
 </template>
 
 <script>
 import PortfolioItem from "./PortfolioItem";
+import PortfolioItemYourNextProject from "./PortfolioItemYourNextProject";
 
 export default {
   name: "PortfolioItemList",
-  components: { PortfolioItem }
+  components: { PortfolioItemYourNextProject, PortfolioItem }
 };
 </script>
 

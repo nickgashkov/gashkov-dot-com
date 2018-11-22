@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-3by2"><img :src="this.imageUrl" /></figure>
+      <figure class="image is-1by1"><img :src="this.imageUrl" /></figure>
     </div>
     <div class="card-content">
       <p class="title is-4">{{ this.name }}</p>

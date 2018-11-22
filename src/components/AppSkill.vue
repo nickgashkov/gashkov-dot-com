@@ -5,7 +5,9 @@
     </header>
     <div class="card-content">
       <div class="content">
-        <p v-for="description in this.descriptions" :key="description">{{ description }}</p>
+        <p v-for="description in this.descriptions" :key="description">
+          {{ description }}
+        </p>
       </div>
       <div class="tags">
         <span v-for="tag in this.tags" :key="tag" class="tag">{{ tag }}</span>
@@ -19,7 +21,7 @@ export default {
   name: "AppSkill",
   props: {
     name: { type: String, required: true },
-    descriptions: { type: String, required: true },
+    descriptions: { type: Array, required: true },
     tags: { type: Array, required: true }
   }
 };

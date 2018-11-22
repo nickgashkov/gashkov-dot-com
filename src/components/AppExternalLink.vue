@@ -7,10 +7,16 @@
 
 <script>
 export default {
-  name: "ExternalLink",
+  name: "AppExternalLink",
   props: {
     url: { type: String, required: true },
     name: { type: String, required: true }
   }
 };
 </script>
+
+<style scoped>
+.has-margin-left {
+  margin-left: 0.5ex;
+}
+</style>
