@@ -5,20 +5,29 @@
         <span>Hungry for</span>
         <typed-strings-hungry />
       </div>
-      <portfolio-item-list />
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <p class="content">
+            I have worked on several personal and professional projects
+            including this website. Check out my latest work.
+          </p>
+        </div>
+        <div class="column">
+          <img src="../assets/macbook-langing-page.png" alt="" />
+        </div>
+      </div>
+      <!-- <portfolio-item-list /> -->
     </div>
   </section>
 </template>
 
 <script>
-import PortfolioItemList from "../components/PortfolioItemList";
 import TypedStringsHungry from "../components/TypedStringsHungry";
 
 export default {
   name: "SectionLatestWork",
   components: {
-    TypedStringsHungry,
-    PortfolioItemList
+    TypedStringsHungry
   }
 };
 </script>

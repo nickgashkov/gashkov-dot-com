@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <the-header />
-    <section-who-am-i />
-    <section-skills />
+    <div class="has-background-gradient">
+      <section-who-am-i />
+      <section-skills />
+    </div>
     <section-latest-work />
     <section-contact-me />
     <the-footer />
@@ -32,4 +34,16 @@ export default {
 
 <style lang="scss">
 @import "~bulma";
+
+.has-background-gradient {
+  background: rgb(214, 14, 255);
+  background: linear-gradient(
+    133deg,
+    rgba(214, 14, 255, 1) 0%,
+    rgba(135, 13, 232, 1) 37%,
+    rgba(74, 1, 255, 1) 64%,
+    rgba(14, 74, 255, 1) 81%,
+    rgba(16, 13, 232, 1) 100%
+  );
+}
 </style>
