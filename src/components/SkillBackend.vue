@@ -4,7 +4,7 @@
     :descriptions="[
       'I have an expertise in building high-performance scalable backends.'
     ]"
-    :tags="['Python', 'Django', 'Docker', 'Ansible', 'Nginx', 'PostgreSQL']"
+    :tags="['Python', 'Django', 'Ansible', 'Nginx', 'PostgreSQL']"
   />
 </template>
 

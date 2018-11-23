@@ -9,7 +9,7 @@
         <div class="column is-one-quarter">
           <p class="content">
             I have worked on several personal and professional projects
-            including this website. Check out my latest work.
+            including this website.
           </p>
         </div>
         <div class="column">

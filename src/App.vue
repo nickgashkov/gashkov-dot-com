@@ -46,4 +46,8 @@ export default {
     rgba(16, 13, 232, 1) 100%
   );
 }
+
+html {
+  scroll-behavior: smooth;
+}
 </style>
