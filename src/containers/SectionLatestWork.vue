@@ -16,7 +16,6 @@
           <img src="../assets/macbook-langing-page.png" alt="" />
         </div>
       </div>
-      <!-- <portfolio-item-list /> -->
     </div>
   </section>
 </template>

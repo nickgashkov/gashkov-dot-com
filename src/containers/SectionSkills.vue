@@ -21,21 +21,3 @@ export default {
   components: { SkillAutomation, SkillFrontend, SkillBackend }
 };
 </script>
-
-<style scoped>
-.card {
-  height: 100%;
-}
-
-/*.section {*/
-/*background: rgb(214, 14, 255);*/
-/*background: linear-gradient(*/
-/*133deg,*/
-/*rgba(214, 14, 255, 1) 0%,*/
-/*rgba(135, 13, 232, 1) 37%,*/
-/*rgba(74, 1, 255, 1) 64%,*/
-/*rgba(14, 74, 255, 1) 81%,*/
-/*rgba(16, 13, 232, 1) 100%*/
-/*);*/
-/*}*/
-</style>

@@ -35,6 +35,10 @@ export default {
 <style lang="scss">
 @import "~bulma";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .has-background-gradient {
   background: rgb(214, 14, 255);
   background: linear-gradient(
@@ -45,9 +49,5 @@ export default {
     rgba(14, 74, 255, 1) 81%,
     rgba(16, 13, 232, 1) 100%
   );
-}
-
-html {
-  scroll-behavior: smooth;
 }
 </style>

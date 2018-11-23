@@ -27,9 +27,3 @@ export default {
   components: { AppExternalLink }
 };
 </script>
-
-<style scoped>
-.has-margin-left {
-  margin-left: 0.5ex;
-}
-</style>
