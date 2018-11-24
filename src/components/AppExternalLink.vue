@@ -1,5 +1,5 @@
 <template>
-  <a :href="this.url" target="_blank">
+  <a :href="this.url" rel="noreferrer" target="_blank">
     <span>{{ this.name }}</span
     >&nbsp;<app-icon name="external-link-alt" class="has-margin-left" />
   </a>
