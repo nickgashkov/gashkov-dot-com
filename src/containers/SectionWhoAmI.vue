@@ -4,7 +4,7 @@
       <h1 class="title is-size-0 has-text-white">Hello, my name is Nick</h1>
       <h2 class="subtitle has-text-white">I'm a software engineer</h2>
       <div class="buttons">
-        <app-download-link class="button" url="#" name="Get CV" disabled />
+        <a href="cv-nick-gashkov-software-developer.pdf" class="button" download>Get CV</a>
         <a href="mailto:nick@gashkov.com" class="button">Hire me</a>
       </div>
     </div>
