@@ -1,3 +1,6 @@
+var PrerenderSpaPlugin = require("prerender-spa-plugin");
+var path = require("path");
+
 module.exports = {
   lintOnSave: false,
   productionSourceMap: false,
@@ -7,6 +10,26 @@ module.exports = {
 
     svgRule.uses.clear();
     svgRule.use("vue-svg-loader").loader("vue-svg-loader");
+  },
+
+  configureWebpack: () => {
+    if (process.env.NODE_ENV !== "production") return;
+
+    return {
+      plugins: [
+        new PrerenderSpaPlugin({
+          staticDir: path.resolve(__dirname, "dist"),
+          routes: ["/"],
+          minify: {
+            collapseBooleanAttributes: true,
+            collapseWhitespace: true,
+            decodeEntities: true,
+            keepClosingSlash: true,
+            sortAttributes: true
+          }
+        })
+      ]
+    };
   },
 
   pluginOptions: {
